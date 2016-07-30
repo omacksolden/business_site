@@ -176,6 +176,7 @@ button a:hover {
 /*END THREE BOX SECTION*/
 
 #testimonial {
+  display: block;
   position: absolute;
   top: 900px;
 }
@@ -204,7 +205,46 @@ button a:hover {
   height: 300px;
   margin-top: 45px;
   float: right;
+  margin-right: 25px;
 }
 #name {
   font-style: italic;
+}
+
+/*--- Menu --- */
+
+.blank-menu-footer {
+    text-align: left;
+    position: absolute;
+    background-color: #333333;
+    width: 100%;
+    color: white;
+    float: left;
+    padding-left: 75px;
+    padding-top: 25px;
+
+}
+.blank-menu-footer ul {
+    margin-right: 0px;
+    padding: 0;
+    list-style-type: none;
+
+}
+
+.blank-menu-footer ul li a {
+    padding: 0;
+    text-decoration:none;
+    font-weight: 300;
+    font-family: "Montserrat";
+    color: #FFFFFF;
+}
+.blank-menu-footer ul li a:hover {
+    color: #fe6b40;
+}
+
+footer {
+  position: absolute;
+  top: 1280px;
+  background-color: #333333;
+  width: 100%;
 }
