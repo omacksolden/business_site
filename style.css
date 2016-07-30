@@ -29,36 +29,6 @@ Text Domain: olivia_macksolden_slicks_template
   top: -10px;
 }
 
-#banner {
-  background: url('img/headerimageblue.jpg');
-  width: 100%;
-  height: 311px;
-  position: relative;
-  top: 130px;
-  clear: both;
-}
-
-#slogan {
-  position: absolute;
-  font-family: "Lato";
-  left: 230px;
-}
-#slogan p {
-  color: #FFFFFF;
-  font-size: 30px;
-}
-button {
-  margin-left: 150px;
-  background-color: #FFFFFF;
-  width: 200px;
-  border-radius: 0;
-  font-family: "Montserrat";
-}
-
-button a {
-  text-decoration: none;
-}
-
 /*--- Menu --- */
 
 .blank-menu-header {
@@ -91,4 +61,62 @@ button a {
 }
 .blank-menu-header ul li a:hover {
     color: #fe6b40;
+}
+/*---BEGIN BANNER---*/
+
+#banner {
+  background: url('img/headerimageblue.jpg');
+  width: 100%;
+  height: 311px;
+  position: relative;
+  top: 130px;
+  clear: both;
+}
+
+#slogan {
+  position: absolute;
+  font-family: "Lato";
+  left: 230px;
+}
+
+#slogan p {
+  color: #FFFFFF;
+  font-size: 30px;
+}
+
+button {
+  margin-left: 150px;
+  background-color: #FFFFFF;
+  width: 200px;
+  border-radius: 0;
+  font-family: "Montserrat";
+}
+
+button a {
+  text-decoration: none;
+}
+
+/*---END BANNER---*/
+
+#threebox {
+  background-color: #333333;
+  position: absolute;
+  top: 440px;
+}
+
+#threebox h2 {
+  font-family: "Lato";
+  font-size: 30px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 25px;
+  letter-spacing: normal;
+}
+#threebox p {
+  padding-left: 200px;
+  padding-right: 200px;
+  font-family: "Lato";
+  font-size: 16px;
+  text-align: center;
+  color: #878787;
 }
