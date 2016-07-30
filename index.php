@@ -19,6 +19,19 @@
                 <li><div class="orange interior"></div><h4 class="box-heading">INTERIOR REPAIR</h4><p>We can easily replace any of the interior parts that have damage or wear.</p></li>
               </ul>
           </section>
+          <section id ="testimonial">
+            <div id="testimage"></div>
+            <article>
+            <h2>"I really trust Slick's because of their excellent service."</h2>
+            <p>"A few months ago, I was in a horrible accident, and my car was completely
+            totalled. A friend referred me to Slick's and I called right away.</p>
+            <p>The staff at Slick's reassured me that they could easily fix it and
+            I was so relieved.The car looked as good as new! The next time I have any
+            issues, I'm definitely calling Slick's. </p>
+            <p>I don't trust anyone else with my car!</p>
+            <p id="name">-Ashley, July 2015</p>
+          </article>
+          </section>
         </div>
     </section>
 <?php get_footer(); ?>
