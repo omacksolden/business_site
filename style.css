@@ -162,3 +162,12 @@ button a:hover {
   margin-top: -90px;
   margin-left: 70px;
 }
+.wrench {
+  background: url('img/wrench.png');
+}
+.collision {
+  background: url('img/collision.png');
+}
+.interior {
+  background: url('img/interior.png');
+}

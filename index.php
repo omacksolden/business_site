@@ -14,9 +14,9 @@
               below are just a few types of repairs that we specialize in.
             </p>
               <ul id="boxes">
-                <li><div class="orange"></div><h4 class="box-heading">COLLISION REPAIR</h4><p>We specialize in repairing damage done by an accident or other forms of impact.</p></li>
-                <li><div class="orange"></div><h4 class="box-heading">ENGINE REPAIR</h4><p>If you're having issues with your engine, we'll diagnose and repair it on the spot.</p></li>
-                <li><div class="orange"></div><h4 class="box-heading">INTERIOR REPAIR</h4><p>We can easily replace any of the interior parts that have damage or wear.</p></li>
+                <li><div class="orange collision"></div><h4 class="box-heading">COLLISION REPAIR</h4><p>We specialize in repairing damage done by an accident or other forms of impact.</p></li>
+                <li><div class="orange wrench"></div><h4 class="box-heading">ENGINE REPAIR</h4><p>If you're having issues with your engine, we'll diagnose and repair it on the spot.</p></li>
+                <li><div class="orange interior"></div><h4 class="box-heading">INTERIOR REPAIR</h4><p>We can easily replace any of the interior parts that have damage or wear.</p></li>
               </ul>
           </section>
         </div>
