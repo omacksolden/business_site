@@ -271,10 +271,16 @@ footer {
   font-family: "Montserrat";
 }
 
+#blogposts h2 {
+  color: #fe6b40;
+  font-family: "Lato";
+  text-align: center;
+}
+
 #blogposts p {
   text-align: center;
   color: #000000;
-  margin-left: 50px;
+  margin-left: 25px;
 }
 
 #actualpost {
@@ -303,4 +309,29 @@ footer {
 
 #pages {
   padding-top: 200px;
+  width: 800px;
+  margin: auto;
+}
+
+#pages h2 {
+  color: #fe6b40;
+  font-family: "Lato";
+  text-align: center;
+}
+#pages p {
+  font-family: "Lato";
+}
+#aboutpage {
+  padding-top: 200px;
+  margin: auto;
+}
+
+#aboutpage h2 {
+  color: #fe6b40;
+  font-family: "Lato";
+  text-align: center;
+}
+
+#aboutpage p {
+  text-align: center;
 }

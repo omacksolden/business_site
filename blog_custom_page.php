@@ -5,6 +5,7 @@ Template Name: Blog Posts
 <section class="row">
          <div class="twelve columns">
            <div id="blogposts">
+             <h2><?php the_title(); ?></h2>
 
              <!-- Begin Loop -->
              <?php query_posts('showposts=4'); ?>
