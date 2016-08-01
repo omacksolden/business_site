@@ -1,20 +1,29 @@
-/*
+<!-- /*
 Template Name: Blog Posts
-*/
+*/ -->
 <?php get_header(); ?>
-<?php query_posts('post_type=post&post_status=publish&posts_per_page=10&paged='. get_query_var('paged')); ?>
-    <div class="row">
-        <div class="twelve columns">
-            <?php if (have_posts()) :
-                while (have_posts()) : the_post(); ?>
-                    <h2><?php the_title(); ?></h2>
-                    <?php the_content();
-                endwhile; ?>
-                <div class="navigation">
-                    <span class="newer"><?php previous_posts_link(__('« Newer','example')) ?></span> <span class="older"><?php next_posts_link(__('Older »','example')) ?></span>
-                </div>
-            <?php endif;
-            wp_reset_query(); ?>
+<section class="row">
+         <div class="twelve columns">
+           <div id="blogposts">
+
+             <!-- Begin Loop -->
+             <?php query_posts('showposts=4'); ?>
+             <?php
+                 if ( have_posts() ) {
+                     while ( have_posts() ) {
+                       the_post(); ?>
+                       <div id="post">
+                       <p id="post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></p>
+                       <p id="date"><?php echo get_the_date(); ?></p>
+                       <a href="<?php the_permalink(); ?>"><p id="readmore">READ MORE</a>
+                       </div>
+               <div id="space"></div>
+               <?php
+                   } //end while
+                 } //end if
+             ?>
+             </div>
+             <!-- End Loop -->
         </div>
-    </div>
+    </section>
 <?php get_footer(); ?>

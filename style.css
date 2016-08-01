@@ -52,10 +52,10 @@ Text Domain: olivia_macksolden_slicks_template
 .blank-menu-header ul li a {
     text-decoration:none;
     margin: 4px;
-    padding: 5px 0px 40px 40px;
-    margin-right: 45px;
+    padding: 5px 0px 10px 30px;
+    margin-right: 25px;
     font-weight: 300;
-    font-size: 1.5rem;
+    font-size: 15px;
     font-family: "Montserrat";
     color: #333333;
 }
@@ -117,6 +117,7 @@ button a:hover {
   padding-top: 25px;
   letter-spacing: normal;
 }
+
 #threebox p {
   padding-left: 200px;
   padding-right: 200px;
@@ -131,6 +132,7 @@ button a:hover {
   padding-left: 25px;
   padding-top: 25px;
 }
+
 #boxes li {
   display: block;
   width: 200px;
@@ -247,4 +249,58 @@ footer {
   top: 1280px;
   background-color: #333333;
   width: 100%;
+}
+#blogpostsfooter {
+  position: absolute;
+}
+
+#blogpostsfooter p {
+  font-family: "Montserrat";
+  color: #FFFFFF;
+  margin-left: 200px;
+  padding-top: 25px;
+}
+
+#first-widget {
+  left: 200px;
+}
+
+#blogposts {
+  top: 250px;
+  position: absolute;
+  font-family: "Montserrat";
+}
+
+#blogposts p {
+  text-align: center;
+  color: #000000;
+  margin-left: 50px;
+}
+
+#actualpost {
+  padding-top: 200px;
+  width: 600px;
+  margin: auto;
+}
+
+#actualpost h2 {
+  color: #fe6b40;
+  font-family: "Lato";
+}
+
+#date p {
+  color: black;
+}
+
+#post-title a {
+  font-size: 35px;
+  text-decoration: none;
+  color: #fe6b40;
+}
+#space {
+  padding-bottom: 50px;
+}
+
+#pages {
+  padding-top: 200px;
 }

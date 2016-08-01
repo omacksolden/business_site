@@ -1,6 +1,7 @@
 <?php get_header(); ?>
     <div class="row">
         <div class="twelve columns">
+          <div id="actualpost">
 <!-- BEGIN SINGLE PHP -->
             <?php if (have_posts()) :
                 /* OUR DATA CONTEXT IS DEFINED  */
@@ -10,6 +11,7 @@
                 endwhile;
             endif; ?>
 <!-- END SINGLE PHP -->
+        </div>
         </div>
     </div>
 <?php get_footer(); ?>

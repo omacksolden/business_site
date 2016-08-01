@@ -5,7 +5,9 @@
                       'sort_column' => 'menu_order',
                       'container_class' => 'blank-menu-footer'
                       ));?>
-                </div>
+                  <div id="blogpostsfooter">
+                    <p>FOLLOW OUR RECENT BLOG POSTS:</p>
+                  </div>
             </footer>
         </div> <!-- ends container -->
     <?php wp_footer(); ?>
