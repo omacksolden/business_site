@@ -6,8 +6,17 @@
                       'container_class' => 'blank-menu-footer'
                       ));?>
                   <div id="blogpostsfooter">
-                    <p>FOLLOW OUR RECENT BLOG POSTS:</p>
                   </div>
+                  <div id="socialicons">
+                    <div id="facebook"></div>
+                    <div id="twitter"></div>
+                    <div id="instagram"></div>
+                  </div>
+                  <form method="get" id="searchform" action="<?php bloginfo('home'); ?>/">
+                    <div><input type="text" size="18" value="<?php echo wp_specialchars($s, 1); ?>" name="s" id="s" />
+                    <input type="submit" id="searchsubmit" value="Search" class="btn" />
+                    </div>
+                    </form>
             </footer>
         </div> <!-- ends container -->
     <?php wp_footer(); ?>

@@ -13,6 +13,13 @@ Template Name: Blog Posts
                  if ( have_posts() ) {
                      while ( have_posts() ) {
                        the_post(); ?>
+                       <div id="thumbnails">
+                       <?php
+                          if ( has_post_thumbnail() ) {
+                            the_post_thumbnail('full');
+                              }
+                          ?>
+                        </div>
                        <div id="post">
                        <p id="post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></p>
                        <p id="date"><?php echo get_the_date(); ?></p>
@@ -27,4 +34,6 @@ Template Name: Blog Posts
              <!-- End Loop -->
         </div>
     </section>
+    <div id="footerblog">
 <?php get_footer(); ?>
+</div>

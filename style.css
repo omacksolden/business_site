@@ -180,7 +180,7 @@ button a:hover {
 #testimonial {
   display: block;
   position: absolute;
-  top: 900px;
+  top: 920px;
 }
 #testimonial h2 {
   font-family: "Lato";
@@ -246,7 +246,7 @@ button a:hover {
 
 footer {
   position: absolute;
-  top: 1280px;
+  top: 1335px;
   background-color: #333333;
   width: 100%;
 }
@@ -257,7 +257,7 @@ footer {
 #blogpostsfooter p {
   font-family: "Montserrat";
   color: #FFFFFF;
-  margin-left: 200px;
+  margin-left: 100px;
   padding-top: 25px;
 }
 
@@ -269,12 +269,15 @@ footer {
   top: 250px;
   position: absolute;
   font-family: "Montserrat";
+  margin-left: 25px;
 }
 
 #blogposts h2 {
   color: #fe6b40;
   font-family: "Lato";
   text-align: center;
+  margin-left: 135px;
+  margin-top: -25px;
 }
 
 #blogposts p {
@@ -344,4 +347,50 @@ footer {
 
 #aboutpage p {
   text-align: center;
+}
+
+#facebook {
+  background: url('img/facebook.png');
+  height: 50px;
+  width: 50px;
+  margin-left: 60px;
+  position: absolute;
+}
+#twitter {
+  background: url('img/twitter.png');
+  height: 50px;
+  width: 50px;
+  margin-left: 120px;
+  position: absolute;
+}
+#instagram {
+  background: url('img/instagram.png');
+  height: 50px;
+  width: 50px;
+
+  position: absolute;
+}
+#socialicons {
+  padding-top: 75px;
+  padding-left: 750px;
+}
+
+#searchform {
+  position: absolute;
+  margin-left: 300px;
+}
+#searchsubmit {
+  background-color: #fe6b40;
+  color: #FFFFFF;
+}
+#thumbnails {
+  margin-left: 175px;
+}
+#footerblog footer {
+  top: 3000px;
+}
+#post {
+  width: 600px;
+  margin: auto;
+  margin-left: 175px;
 }
