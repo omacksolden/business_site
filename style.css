@@ -319,7 +319,17 @@ footer {
   text-align: center;
 }
 #pages p {
-  font-family: "Lato";
+  font-family: "Open Sans";
+  text-align: center;
+}
+
+#pages h3 {
+  color: #1d5183;
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+
 }
 #aboutpage {
   padding-top: 200px;
